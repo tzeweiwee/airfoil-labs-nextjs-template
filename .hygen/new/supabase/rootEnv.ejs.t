@@ -1,0 +1,5 @@
+---
+to: .env.example
+---
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_API_KEY=
