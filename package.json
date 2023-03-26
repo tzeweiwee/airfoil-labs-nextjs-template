@@ -12,7 +12,9 @@
     "prepare": "husky install",
     "check-types": "tsc",
     "validate": "npm run prettier & npm run lint:eslint & npm run check-types & npm run build",
-    "new:component": "hygen new component"
+    "new:component": "hygen new component",
+    "init:prisma": "hygen init prisma",
+    "init:supabase": "hygen init supabase"
   },
   "dependencies": {
     "next": "^13.2.1",
