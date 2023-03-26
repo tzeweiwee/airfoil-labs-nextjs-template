@@ -1,5 +1,7 @@
 ---
+inject: true
 to: .env.example
+append: true
 ---
 # Since the ".env" file is gitignored, you can use the ".env.example" file to
 # build a new ".env" file when you clone the repo. Keep this file up-to-date
