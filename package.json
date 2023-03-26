@@ -11,7 +11,8 @@
     "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx,scss}'",
     "prepare": "husky install",
     "check-types": "tsc",
-    "validate": "npm run prettier & npm run lint:eslint & npm run check-types & npm run build"
+    "validate": "npm run prettier & npm run lint:eslint & npm run check-types & npm run build",
+    "new:component": "hygen new component"
   },
   "dependencies": {
     "next": "^13.2.1",
@@ -31,6 +32,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
+    "hygen": "^6.2.11",
     "lint-staged": "^13.1.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
